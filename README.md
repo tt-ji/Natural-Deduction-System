@@ -1,1 +1,2 @@
-# Natural-Deduction-System
+L_ND 
+ND_L

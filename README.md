@@ -1,1 +1,6 @@
-There is a concise natural deduction system which only contain five inference rules. And the two files illustrate the equivalence between natural deduction system and axiom system.
+数理逻辑的基础是命题演算和谓词演算，笔者对命题演算和谓词演算的自然演绎系统展开研究，使用证明辅助工具Rocq（原名Coq）建立形式化系统，并证明数理逻辑中的数学命题及定理。
+主要参照石纯一老师的高校教材《数理逻辑与集合论》中第三章和第六章的内容，进行了自然演绎系统的形式化工作。
+文件ND_L中建立了命题演算的一个简洁的自然演绎系统ND，仅有五条推理规则，并证明了在ND中能推出公理系统L的公理及定理，故命名为ND_L。
+文件L_ND通过用公理系统L的公理证明ND的五条推理规则来说明L与ND的关系，L同样可以推出ND，故命名为L_ND.
+至此，以上两个文件说明了命题演算中，自然演绎系统与公理系统的等价性。
+文件NDK则是研究谓词演算的自然演绎系统，在ND的基础上引入了量词，以及相关的推理规则。
